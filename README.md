@@ -4,6 +4,6 @@ Criar um recurso rest de lista de Produtos utilizando autenticação utilizando 
 - Criar o modelo de classe e o repositorio;
 
 - Criar tabela com um esquema de versionamento com Flyway
-	-- V001_cria_tabela_produto
-	-- popular a tabela com arquivo import.sql
-	-- add o campo quantidade
+	- V001_cria_tabela_produto
+	- popular a tabela com arquivo import.sql
+	- add o campo quantidade
