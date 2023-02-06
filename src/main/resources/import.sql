@@ -1,0 +1,2 @@
+INSERT INTO tbl_produto (id, codigo, descricao, preco, quantidade) VALUES (1, '23123', 'CHIP OI DC DSA 4G', 10.5, 100);
+INSERT INTO tbl_produto (id, codigo, descricao, preco, quantidade) VALUES (2, '25010', 'VENT MALLORY ECO TS 30CM 4PAS PTO', 150, 10);
