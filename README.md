@@ -9,6 +9,7 @@ Criar um recurso rest de lista de Produtos utilizando autenticação oauthe2 JWT
 	- add o campo quantidade
 	
 - Criar o recurso para listar, salvar, atualizar e deletar produto.
+	- listando produtos na API. Ok!
 
 ![image](https://user-images.githubusercontent.com/28118980/217341295-a7362699-b010-4ca7-a305-30d4b92c79c9.png)
 
