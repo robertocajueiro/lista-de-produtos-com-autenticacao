@@ -15,7 +15,7 @@ import com.roberto.listadeprodutos.domain.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/usuarios")
+@RequestMapping("/api/usuarios")
 @RequiredArgsConstructor
 public class UsuarioController {
 	

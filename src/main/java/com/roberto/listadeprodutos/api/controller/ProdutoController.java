@@ -19,7 +19,7 @@ import com.roberto.listadeprodutos.domain.model.Produto;
 import com.roberto.listadeprodutos.domain.repository.ProdutoRepository;
 
 @RestController
-@RequestMapping("/produtos")
+@RequestMapping("/api/produtos")
 @CrossOrigin("http://localhost:4200")
 public class ProdutoController {
 	
