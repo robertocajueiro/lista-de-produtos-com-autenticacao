@@ -1,5 +1,7 @@
 package com.roberto.listadeprodutos.api.controller;
 
+import javax.validation.Valid;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -10,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.roberto.listadeprodutos.domain.model.Usuario;
 import com.roberto.listadeprodutos.domain.repository.UsuarioRepository;
 
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController

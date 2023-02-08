@@ -15,3 +15,14 @@ Criar um recurso rest de lista de Produtos utilizando autenticação oauthe2 JWT
 
 - Criar Modelagem da entidade usuário.
 - Criar API de Registro de Usuários
+
+- Adicionando as dependências de segurança do spring boot
+	- OBSERVAÇÃO: precisei fazer um downgrade do projeto do spring boot 3.0.2 para 2.7.8 a versão atual
+	não funcionou a herança da classe WebSecurityConfigurerAdapter. Precisei refatorar todos os import de
+	jakarta para javax persistence. Em outro momento tentarei utilizar a versão mais atualizada.
+	
+- Após aplicar as dependências
+
+![image](https://user-images.githubusercontent.com/28118980/217396816-6cb1b844-a033-42ea-80e8-799ba38382fe.png)
+ 
+
