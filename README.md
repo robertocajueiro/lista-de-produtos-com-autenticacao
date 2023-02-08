@@ -37,3 +37,11 @@ Criar um recurso rest de lista de Produtos utilizando autenticação oauthe2 JWT
 
 - Configurado usuário em memoria
 - Autenticando com usuarios da base de dados
+
+- Configurando o OAuth para utilizar tokens JWT
+
+![image](https://user-images.githubusercontent.com/28118980/217534429-b1f3e23f-d1ef-48fd-915e-371041019a92.png)
+
+- Testando o token no site JWT https://jwt.io/
+
+![image](https://user-images.githubusercontent.com/28118980/217535044-181b95b5-2d3a-4626-9c5b-dc77ad22d9ef.png)
