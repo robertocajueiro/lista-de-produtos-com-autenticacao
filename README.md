@@ -25,4 +25,13 @@ Criar um recurso rest de lista de Produtos utilizando autenticação oauthe2 JWT
 
 ![image](https://user-images.githubusercontent.com/28118980/217396816-6cb1b844-a033-42ea-80e8-799ba38382fe.png)
  
+- Log spring boot gerando o token
+
+![image](https://user-images.githubusercontent.com/28118980/217399757-dc50af6a-c9f3-471c-b443-79a8ce2f2f60.png)
+
+- Testando com postman
+
+![image](https://user-images.githubusercontent.com/28118980/217399999-1b30724f-6a51-4e39-803c-9a3387716193.png)
+
+![image](https://user-images.githubusercontent.com/28118980/217400124-5ebaf495-18c1-4de0-ae88-9a3a6eedec3f.png)
 
