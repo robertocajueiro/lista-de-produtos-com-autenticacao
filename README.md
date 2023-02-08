@@ -35,3 +35,4 @@ Criar um recurso rest de lista de Produtos utilizando autenticação oauthe2 JWT
 
 ![image](https://user-images.githubusercontent.com/28118980/217400124-5ebaf495-18c1-4de0-ae88-9a3a6eedec3f.png)
 
+- Configurado usuário em memoria
