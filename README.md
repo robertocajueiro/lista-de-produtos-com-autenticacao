@@ -70,5 +70,5 @@ Vou mostrar aqui o passo a passo que foi feito.
 # Conclusão:
 
 Agora com a implementação de segurança gerando access_token podemos ter um ambiente seguro para consumir a API. 
-Pretendo futuramente construir em Angular uma tela de login acessando esta API, onde forma mais
+Pretendo futuramente construir em Angular uma tela de login acessando esta API, onde de forma mais
 amigavel e seguro o usuário final consiga acessar os dados por meio da autenticação.
