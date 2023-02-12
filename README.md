@@ -1,6 +1,27 @@
 # Lista de produtos utilizando acesso com autenticação
 Criar um recurso rest de lista de Produtos utilizando autenticação oauthe2 JWT 
 
+Criei um recurso de usuario e de lista de produtos.
+O recurso de usuario foi feito para criar o usuario e poder fazer os testes no postman.
+Abaixo segue um exemplo para fazer testes. 
+
+http://localhost:8080/api/usuarios
+
+exemplo: body postman
+{
+    "username": "cicrano",
+    "password": "123"
+}
+
+Criação do Token JWT
+http://localhost:8080/oauth/token
+
+username: cicrano
+password: 123
+grant_type: password.
+
+Vou mostrar aqui o passo a passo que foi feito.
+
 - Criar o modelo de classe e o repositorio;
 
 - Criar tabela com um esquema de versionamento com Flyway
@@ -46,4 +67,8 @@ Criar um recurso rest de lista de Produtos utilizando autenticação oauthe2 JWT
 
 ![image](https://user-images.githubusercontent.com/28118980/217535044-181b95b5-2d3a-4626-9c5b-dc77ad22d9ef.png)
 
-# Conclusão
+# Conclusão:
+
+Agora com a implementação de segurança gerando access_token podemos ter um ambiente seguro para consumir a API. 
+Pretendo futuramente construir em Angular uma tela de login acessando esta API para poder de forma mais
+amigavel e seguro o usuário final acessar os dados por meio da autenticação.
